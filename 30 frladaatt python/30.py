@@ -13,14 +13,20 @@ while keyboard.is_pressed('q')==False:
         tecnos.fd(20)
     if keyboard.is_pressed('3')==True:
         tecnos.clear()
-        tecnos.fd(30)
-        tecnos.rt(90)
-        tecnos.fd(40)
-        tecnos.lt(217)
-        tecnos.fd(50)
+        turtle.pencolor("black")
+        turtle.left(45)
+        turtle.forward(100)
+        turtle.right(90)
+        turtle.forward(100)
+        turtle.right(135)
+        turtle.forward(145)
 
     if keyboard.is_pressed('4')==True:
         tecnos.clear()
+        turtle.pencolor("black")
+        for i in range(4):
+            turtle.forward(200)
+            turtle.left(90)
     if keyboard.is_pressed('5')==True:
         tecnos.clear()
     if keyboard.is_pressed('6')==True:
